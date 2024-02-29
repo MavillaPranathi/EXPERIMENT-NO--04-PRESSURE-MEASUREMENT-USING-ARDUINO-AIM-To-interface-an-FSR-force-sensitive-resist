@@ -118,7 +118,8 @@ void loop()
 ```
  
  
-![Screenshot 2024-02-29 113407](https://github.com/MavillaPranathi/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/118343610/be754c03-58dc-48b9-aa55-edee0bfa6b57)
+![Screenshot 2024-02-29 115446](https://github.com/MavillaPranathi/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/118343610/15008713-79ce-49cf-b6bc-b2ea0acd66e6)
+
 
 ![Screenshot 2024-02-29 113440](https://github.com/MavillaPranathi/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/118343610/79b06377-dcf3-474c-bd01-0da2d741eb66)
 
@@ -135,10 +136,11 @@ N is the total number of values
 
 For those unfamiliar with summation notation, the equation above may seem daunting, but when addressed through its individual components, this summation is not particularly complicated. The i=1 in the summation indicates the starting index, i.e. for the data set 1, 3, 4, 7, 8, i=1 would be 1, i=2 would be 3, and so on. Hence the summation notation simply means to perform the operation of (xi - μ)2 on each value through N, which in this case is 5 since there are 5 values in this data set.
 
-EX:           μ = (1+3+4+7+8) / 5 = 4.6        
-σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
-σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
+EX:          
+μ = (2+2+4+5+5+6+7+7+8+8) / 10 = 5.4        
+σ = √[(2-5.4)2 + (2-5.4)2 + (4-5.4)2 + (5-5.4)2 + (5-5.4)2+ (5-5.4)2+ (6-5.4)2+ (6-5.4)2+ + (7-5.4)2+ (7-5.4)2+ (8-5.4)2+ (8-5.4)2 + (8-5.4)2]/10
+σ = √(6.66)/10 = 0.66
 
 
-
-### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
+### RESULTS :
+Arduino uno is interfaced with FSR and output values are indicated on a graph.
